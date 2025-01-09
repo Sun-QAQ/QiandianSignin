@@ -22,7 +22,7 @@ let textView;
 // 签到
 if (className("android.widget.TextView").text("签到").exists()) {
     click("签到", 0);
-    sleep(5000);   // 等待1秒
+    sleep(7000);   // 等待1秒
 }
 
 // 领福利
